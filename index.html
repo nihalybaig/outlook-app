@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel='stylesheet' href='styles.css'>
+  <title>Outlook Lister</title>
+</head>
+<body class='container'>
+  <header id="main-header" class="header">
+    <div class="container row">
+      <div class="col-6">
+        Filter By:
+        <button class="filter-btn" type="button" id="unreadBtn">Unread</button>
+        <button type="button" id="readBtn">Read</button>
+        <button type="button" id="favBtn">Favorite</button>
+        <!-- <input type="text" class="form-control" id="filter" placeholder="Search Items..."> -->
+      </div>
+    </div>
+  </header>
+  <div class="container row">
+   <div class="col-12 row">
+    <ul id="emails" class="expanded">
+    </ul>
+    <div id="details" class="hidden"></div>
+   </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
